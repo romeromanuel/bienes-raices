@@ -123,7 +123,7 @@ h4 {
 .contenido-header h1 {
 	color: #ffffff;
 	max-width: 60rem;
-	line-height: 2;
+	line-height: 1.4;
 }
 .barra {
 	padding-top: 3rem;
@@ -144,8 +144,9 @@ h4 {
 
 /** Navegación **/
 .navegacion {
-	margin-top: 2rem;
+	display: none;
 	width: 100%;
+	margin-top: 2rem;
 }
 .navegacion a {
 	color: #ffffff;
@@ -156,6 +157,7 @@ h4 {
 }
 @media (min-width: 768px) {
 	.navegacion {
+		display: block;
 		width: auto;
 		margin-top: 0;
 	}
@@ -182,9 +184,6 @@ h4 {
 	margin-bottom: 0.6rem;
 	background-color: #ffffff;
 	display: block;
-}
-.menu-movil:hover {
-	cursor: pointer;
 }
 @media (min-width: 768px) {
 	.menu-movil {
@@ -265,14 +264,13 @@ h4 {
 
 
 /** Contacto Home **/
-.imagen-contacto {
+.contactanos {
 	color: #ffffff;
 	height: 40rem;
 	margin-top: 4.5rem;
 	background-image: url(../img/encuentra.jpg);
 	background-position: center center;
 	background-size: cover;
-	
 	display: flex;
 	align-items: center;
 }
