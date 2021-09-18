@@ -17,3 +17,15 @@ $(function () {
         });
     });
 });
+
+/*===== SCROLL REVEAL ANIMATION ======*/
+const sr = ScrollReveal({
+    distance: '40px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal('.icono, .anuncio', { origin: 'top', interval: 200 });
+sr.reveal('.contactanos-contenedor, .imagen', { origin: 'left' });
+sr.reveal('.texto-nosotros, .texto-entrada', { origin: 'right' });
+sr.reveal('.title', { origin: 'bottom' });
